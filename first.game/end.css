@@ -1,0 +1,64 @@
+
+html {
+    background-color: whitesmoke;
+    text-align: center;
+   }
+.lola{
+    color: #000;
+}
+.texto{
+    text-align: left
+
+}
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+body {
+    background-image: url('/images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+
+}
+input[type="email"] {
+    width: 100%; /* Ocupará 100% do espaço disponível no container */
+    padding: 10px; /* Ajuste o espaçamento interno para melhorar a aparência */
+    font-size: 14px; /* Tamanho da fonte adequado */
+    box-sizing: border-box; /* Para garantir que o padding não ultrapasse a largura */
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.butao{
+    color: red;
+}
+.yt{
+    color: red;
+}
+
+
+/* centralizar no meio  */
