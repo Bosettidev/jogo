@@ -1,6 +1,6 @@
 
 html {
-    background-color: whitesmoke;
+    background-color: lightslategrey;
     text-align: center;
    }
 .lola{
@@ -15,21 +15,9 @@ form {
     text-align: left;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     
 }
-
-body {
-    background-image: url('/images.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-}
-
 h1 {
     font-size: 70px;
 
@@ -46,15 +34,23 @@ input[type="email"] {
     display: inline-block;
     padding: 10px 20px;
     background-color: #000000; /* Cor de fundo */
-    color: black; /* Cor do texto */
+    color: whitesmoke; /* Cor do texto */
     text-align: center;
     text-decoration: none; /* Remove o sublinhado */
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius:  8px; /* Bordas arredondadas */
     transition: background-color 0.3s; /* Transição suave */
 }
 
 .butao{
-    color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: whitesmoke; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius:  8px; /* Bordas arredondadas */
+    transition: background-color 0.3s
 }
 .yt{
     color: red;
